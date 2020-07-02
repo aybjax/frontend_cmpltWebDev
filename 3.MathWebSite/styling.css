@@ -1,0 +1,208 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+}
+
+div#container {
+    width: 1300px;
+    height: 100px;
+    /* border: 1px solid grey; */
+    margin: 0 auto;
+}
+
+h1 a {
+    font-size:60px;
+    font-weight:100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#header{
+    /* border-style: dashed; */
+    height:100px;
+    padding: 10px 0;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(#e4f2b9, #b7e953);
+    -moz-background: linear-gradient(#e4f2b9, #b7e953);
+    -o-background: linear-gradient(#e4f2b9, #b7e953);
+    -ms-background: linear-gradient(#e4f2b9, #b7e953);
+    -webkit-background: linear-gradient(#e4f2b9, #b7e953);
+    /* background-color: #b7e953; */
+    height: 45px;
+    width:600px;
+    /* border-style: 0ex; */
+    padding: 15px 10px 10px 10px;
+    margin-top: 30px;
+}
+
+#brand {
+    float: left;
+}
+
+#form{
+    position: center;
+}
+
+.text{
+    float: left;
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    padding: 5px;
+    color: #e36a0c;
+    background: white url(search.png) right center no-repeat;
+    border: 2px solid #c8d03e;
+}
+
+.submit{
+    font-size: 20px;
+    background: #a751d6;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    float: right;
+    /* margin: 5px; */
+}
+
+.clear {
+    clear:both;
+}
+
+ul {
+    list-style:none
+}
+
+#menu ul li {
+    font-size: 20px;
+    float: left;
+    padding: 0 40px;
+    height: 70px;
+    height: 40px;
+    border-right-style: ridge;
+    border-right-color: #5d12e7;
+    border-right-width: 2px;
+}
+
+#menu ul li:last-child{
+    border-right:none;
+}
+
+#menu ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5d12e7;
+    line-height: 40px;
+    transition: font-size 0.25s ease;
+    -moz-transition: font-size 0.25s ease;
+    -o-transition: font-size 0.25s ease;
+    -ms-transition: font-size 0.25s ease;
+    -webkit-transition: font-size 0.25s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b314db;
+}
+
+#menu {
+    height:80px;
+    background: linear-gradient(#F8F594, #D5D533);
+    -moz-background: linear-gradient(#F8F594, #D5D533);
+    -o-background: linear-gradient(#F8F594, #D5D533);
+    -ms-background: linear-gradient(#F8F594, #D5D533);
+    -webkit-background: linear-gradient(#F8F594, #D5D533);
+    padding: 10px 0;
+}
+
+#introduction {
+    background: linear-gradient(#e5f2bb, #b7e952);
+    -moz-background: linear-gradient(#e5f2bb, #b7e952);
+    -o-background: linear-gradient(#e5f2bb, #b7e952);
+    -ms-background: linear-gradient(#e5f2bb, #b7e952);
+    -webkit-background: linear-gradient(#e5f2bb, #b7e952);
+    padding: 1px 10px;
+    margin: 15px 0;
+}
+#introduction h3{
+    font-size: 40px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size:25px;
+    color: #628F19;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 700px;
+    width: 580px;
+    border: 1px solid #BAF46F;
+    border-radius: 40px;
+    margin: 1px 10px;
+    padding: 10px 20px;
+}
+.sidebar h3{
+    color:#b314db;
+    font-size: 40px;
+
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #5d12e7;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a:active{
+    text-decoration: none;
+    color: #b314db;
+    font-size: 26px;
+    font-weight:bold;
+    transition: font-size 0.25s ease;
+    -moz-transition: font-size 0.25s ease;
+    -o-transition: font-size 0.25s ease;
+    -ms-transition: font-size 0.25s ease;
+    -webkit-transition: font-size 0.25s ease;
+}
+#leftsidebar {
+    float: left;
+}
+
+.sidebar {
+    padding-top:8px;
+}
+#leftsidebar li{
+    padding-bottom:12px;
+    padding-left: 6px;
+    list-style-image: url(arrow.png);
+}
+
+#rightsidebar {
+    float: right;
+}
+
+#rightsidebar li {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 65px;
+    background: url(tick.png) no-repeat left center;
+    font-size: 30px;
+}
+
+.footer{
+    border: ridge;
+    height: 60px;
+    background: linear-gradient(#f6f390, #d5d533);
+    -moz-background: linear-gradient(#f6f390, #d5d533);
+    -o-background: linear-gradient(#f6f390, #d5d533);
+    -ms-background: linear-gradient(#f6f390, #d5d533);
+    -webkit-background: linear-gradient(#f6f390, #d5d533);
+    padding: 10px 20px;
+    margin-top: 15px;
+}

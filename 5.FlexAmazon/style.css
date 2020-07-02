@@ -1,0 +1,26 @@
+form {
+    display:flex;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.details{
+    flex: 3;
+}
+.comments{
+    flex:1;
+}
+.submit{
+    margin-top:auto;
+}

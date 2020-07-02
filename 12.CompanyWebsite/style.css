@@ -1,0 +1,91 @@
+body {
+    font-family: Arvo, serif;
+    background: url(https://66.media.tumblr.com/363269db99d577a81367f548552aed41/tumblr_pfs83y1cqR1u7ns0go1_1280.jpg) no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar img {
+    height:30px;
+}
+
+.navbar-inverse {
+    background: rgba(0,0,0,0.5)
+}
+
+.nav li {
+    color:#fff;
+    font-size:20px;
+    margin-right:35px;
+    padding: 10px 0px;
+}
+
+.nav li:hover {
+    border-bottom: 1px solid #00FFb8;
+    padding-bottom: 9px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin:0;
+    padding:10px;
+    letter-spacing:2.5px;
+}
+
+.bodyimage {
+    height: 100px;
+}
+
+.col-md-4 {
+    text-align: center;
+    color:#fff;
+}
+
+.icons p {
+    font-size:20px;
+}
+
+.container {
+    max-width:1000px;
+}
+
+.contact {
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 100px;
+}
+
+.btn{
+    background: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius:10px;
+    color:#fff;
+    font-size:18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+}
+
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: auto;
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+}
+
+@media (max-width:768px){
+    .bodyimage {
+        height: 70px;
+    }
+}
